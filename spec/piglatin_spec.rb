@@ -4,7 +4,7 @@ describe 'PigLatin' do
 
   let(:vowel) { PigLatin.translate('english') }
   let(:constant) { PigLatin.translate('rubbish') }
-  let(:yfirstt) { PigLatin.translate('yell') }
+  let(:yfirst) { PigLatin.translate('yell') }
   let(:constants) { PigLatin.translate('shark') }
   let(:ynotfirst) { PigLatin.translate('rhythm') }
 

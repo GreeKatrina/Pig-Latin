@@ -19,9 +19,13 @@ module PigLatin
   end
 
   def self.vowel(string)
+    string = string + "way"
   end
 
   def self.constant(string)
+    x = string.index(/[aeiou]/)
+    first = string[0,x]
+    string = string[x,string.length] + "#{first}ay"
   end
 
   def self.y_not_first(string)
