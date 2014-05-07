@@ -24,7 +24,7 @@ describe 'PigLatin' do
     end
 
     it 'should return a string with the constants before the first vowel with "ay" at the end of the string' do
-      expect(constant).to eq('arkshay')
+      expect(constants).to eq('arkshay')
     end
   end
 
